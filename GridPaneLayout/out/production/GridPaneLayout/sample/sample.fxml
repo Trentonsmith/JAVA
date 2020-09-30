@@ -1,0 +1,110 @@
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<StackPane fx:controller="sample.Controller"
+           xmlns:fx="javafx.com/fxml">
+    <Label text="the label text" style="-fx-background-color: Green"/>
+<Button text="Button One" style="-fx-background-color: red"/>
+    <Label text="the second label text" style="-fx-background-color: blue"/>
+
+
+
+
+
+
+
+</StackPane>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?import javafx.scene.layout.FlowPane?>-->
+<!--<?import javafx.scene.control.Button?>-->
+<!--<?import javafx.scene.layout.TilePane?>-->
+<!--<TilePane fx:controller="sample.Controller"-->
+          <!--xmlns:fx="javafx.com/fxml" >-->
+
+    <!--<Button text="Button 1"/>-->
+    <!--<Button text="Button 2"/>-->
+    <!--<Button text="Button 3"/>-->
+    <!--<Button text="Button 4"/>-->
+    <!--<Button text="Button 5"/>-->
+    <!--<Button text="Button 6"/>-->
+    <!--<Button text="Button 7"/>-->
+    <!--<Button text="Button 8"/>-->
+    <!--<Button text="Button 9"/>-->
+    <!--<Button text="Button 10"/>-->
+
+
+
+
+<!--</TilePane>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?import javafx.geometry.Insets?>-->
+<!--<?import javafx.scene.control.Button?>-->
+<!--<?import javafx.scene.layout.HBox?>-->
+<!--<?import javafx.scene.layout.BorderPane?>-->
+<!--<?import javafx.scene.control.Label?>-->
+<!--<BorderPane fx:controller="sample.Controller"-->
+            <!--xmlns:fx="http://javafx.com/fxml">-->
+    <!--<top>-->
+        <!--&lt;!&ndash;// with the alignment center, the label is till in the top left because&ndash;&gt;-->
+        <!--&lt;!&ndash;// the BorderPane is giving it all the top spaces width but the label will&ndash;&gt;-->
+        <!--&lt;!&ndash;// only take up it's preferred width(defaults to whatever size accomodates&ndash;&gt;-->
+        <!--&lt;!&ndash;// the text) so it centers the text in the labels space, not the BorderPanes&ndash;&gt;-->
+        <!--<Label text="this label is in the top position" alignment="center" style="-fx-border-color: blue; -fx-border-width: 3; -fx-border-style: dashed"-->
+        <!--BorderPane.alignment="CENTER"/>-->
+    <!--</top>-->
+    <!--<center>-->
+        <!--<Label text="This label is in the center position and has really LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONG text" alignment="center"/>-->
+    <!--</center>-->
+    <!--<left>-->
+        <!--<Label text="This label is in the left position" alignment="center"/>-->
+    <!--</left>-->
+    <!--<right>-->
+        <!--<Label text="This label is in the right position" alignment="center"/>-->
+    <!--</right>-->
+    <!--<bottom>-->
+        <!--<HBox spacing="10" alignment="bottom_right">-->
+            <!--<padding>-->
+                <!--<Insets bottom="10" right="10"/>-->
+            <!--</padding>-->
+<!--<Button text="Okay" prefWidth="90"/>-->
+<!--<Button text="Cancel" prefWidth="90"/>-->
+<!--<Button text="Help" prefWidth="90"/>-->
+        <!--</HBox>-->
+    <!--</bottom>-->
+<!--</BorderPane>-->
